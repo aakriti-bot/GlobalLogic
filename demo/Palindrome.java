@@ -2,7 +2,9 @@ package com.globallogic.demo;
 import java.util.*;
 public class Palindrome {
 	public static void main(String[] args) {
-		String s="aakriti";
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a string:");
+		String s=sc.next();
 		StringBuilder str = new StringBuilder();
 		str.append(s);
 		str.reverse();

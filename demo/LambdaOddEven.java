@@ -4,7 +4,7 @@ package com.globallogic.demo;
 //create a lambda to find the largest number
 //create a lambda to find the min  number
 //create a lambda to print the hello world
-import java.util.*;
+
 interface Check{
 	void check(int a);
 }
